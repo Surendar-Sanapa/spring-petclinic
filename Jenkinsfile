@@ -23,7 +23,7 @@ pipeline {
         }
         
         
-       stage('build') {
+       stage('BUILD') {
             steps {
                 echo 'Build the code'
                 sh './mvnw package'
