@@ -12,7 +12,7 @@ pipeline {
         
         
         
-        stage('git') {
+        stage('GIT') {
             steps {
                 echo 'clonning Repository'
                 git branch: 'main', url: 'https://github.com/mnagen/spring-petclinic.git'
